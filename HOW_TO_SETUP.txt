@@ -1,0 +1,30 @@
+SETUP on cloud 9. First RUN:
+
+$ git remote add starterkit https://github.com/ec-europa/subsite-starterkit.git
+
+$ git fetch starterkit
+
+$ git merge starterkit/master
+
+/////
+ 
+In the terminal create a tmp folder anywhere:
+mkdir tmp
+
+Get composer
+curl -sS https://getcomposer.org/installer | php
+
+Move to the bin folder
+Move composer
+sudo mv composer.phar /usr/local/bin/composer
+
+Install drush
+composer global require drush/drush:7.*
+
+Export to the path
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+also install mysql & phpmyadmin in C9 + also change the docroot in C9.
+https://community.c9.io/t/setting-up-phpmyadmin/1723
+
+Don't visit in HTTPS because of problems with CSS.
