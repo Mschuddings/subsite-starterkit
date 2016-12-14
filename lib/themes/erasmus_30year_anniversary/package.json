@@ -22,5 +22,8 @@
   "homepage": "https://github.com/Mschuddings/subsite-starterkit#readme",
   "devDependencies": {
     "gulp-sass": "^3.0.0"
+  },
+  "dependencies": {
+    "bourbon-neat": "^1.8.0"
   }
 }
