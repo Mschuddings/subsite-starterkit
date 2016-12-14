@@ -1,0 +1,8 @@
+.container {
+  // Max-width setting will be applied to outer-container.
+  @include outer-container;
+}
+
+.half-width {
+  @include span-columns(6);
+}
