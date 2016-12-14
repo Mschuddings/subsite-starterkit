@@ -31,6 +31,7 @@ dependencies[] = smart_trim
 dependencies[] = taxonomy_manager
 dependencies[] = views
 dependencies[] = views_bootstrap
+dependencies[] = erasmus_30ya_core
 features[context][] = calls-sidebar
 features[context][] = not_found_page_404
 features[context][] = programmeguide
