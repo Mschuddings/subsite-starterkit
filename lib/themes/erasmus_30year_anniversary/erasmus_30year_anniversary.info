@@ -3,7 +3,7 @@ description = subtheme by DG EAC
 package = erasmus_theme
 core = "7.x"
 multisite_version = "2.2"
-;base theme = erasmus
+base theme = ec_resp
 php = 5.2.9
 
 ; REGIONS
