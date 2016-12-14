@@ -1,5 +1,9 @@
 @import "bourbon";
+@import "grid-settings";
 @import "neat";
 
 // Custom files.
-@import "base/vars"
+@import "base/normalize";
+
+@import "base/vars";
+@import "layout/layout";
